@@ -1,0 +1,20 @@
+Linear gradient in text.
+
+Here, we use linear gradient in text shown below =>
+
+<!DOCTYPE html>
+<html>
+	<head>
+        <style>
+	        h1 {
+		        background: linear-gradient(red, orange);
+		        -webkit-background-clip: text;
+		        background-clip: text;
+	        }
+        </style>
+    </head>
+<body>
+	<h1>Here is a sample text</h1>
+</body>
+
+</html>

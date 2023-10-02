@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements</title>
+    <link rel="stylesheet" href="../Styles/HTML_Styles/Elements.css">
+    <link rel="icon" href="../Images/Favicon.png">
+</head>
+
+<body>
+    <div class="sidebar">
+        <header>HTML Basic</header>
+        <ul>
+            <li>
+                <a href="Editors.html">HTML Editors</a>
+            </li>
+            <li>
+                <a href="Intro.html">Introduction</a>
+            </li>
+            <li>
+                <a href="Elements.html" class="active">Elements</a>
+            </li>
+            <li>
+                <a href="Attributes.html">Attributes</a>
+            </li>
+            <li>
+                <a href="Images.html">Images</a>
+            </li>
+            <li>
+                <a href="Links.html">Links</a>
+            </li>
+            <li>
+                <a href="Buttons.html">Buttons</a>
+            </li>
+            <li>
+                <a href="Comments.html">Comments</a>
+            </li>
+        </ul>
+    </div>
+    <nav class="navbar dark">
+        <ol>
+            <li>
+                <img src="../Images/Profiledark.png" id="profile" draggable="false">
+            </li>
+        </ol>
+        <ul class="navlist">
+            <a href="../index.html" class="list">Home</a>
+            <a href="Intro.html" class="list">HTML</a>
+            <a href="#" class="list">CSS</a>
+            <a href="#" class="list">JavaScript</a>
+        </ul>
+        <div class="right">
+            <img src="../Images/Theme button2.png" class="theme" id="Theme">
+        </div>
+    </nav>
+    <div class="content">
+        <div class="header-wrapper">
+            <div class="header">
+                <h3>In this topic we will learn about Element</h3>
+                <h3>All concepts will be cleared in this topic</h3>
+                <h3></h3>
+            </div>
+        </div>
+        <hr>
+        <div class="explain">
+            <h1>What is Element?</h1>
+            <p>An HTML <strong>element</strong> is everything from the start tag and end tag</p>
+            <p>Some of Examples are here:</p>
+            <div class="example-wrapper">
+                <div class="Example e1 darkexample" style="height: 205px;">
+                    <h1>Example</h1>
+                    <div class="contain">
+                        <p><code>&lt;p&gt;This is a Paragraph &lt;/p&gt;</code>
+                        </p>
+                        <p><code>&lt;h1&gt;This is a Heading &lt;/h1&gt;</code>
+                        </p>
+                    </div>
+                    <div class="output">
+                        <a href="../Output_box/element1.html">Try it with yourself</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="note" style="margin-top: 70px;">
+            <p><strong>Note:</strong> Some HTML elements have no content (like the <code>&lt;br&gt;</code>
+                element). These
+                elements are called empty elements. Empty elements do not have an end tag!</p>
+        </div>
+        <hr>
+        <div class="nested">
+            <h1>Nested Elements</h1>
+            <p>HTML elements can be nested (this means that elements can contain other elements).</p>
+            <p>All HTML documents consist of nested HTML elements.</p>
+            <p>The following example contains four HTML elements (&lt;html&gt;, &lt;body&gt;, &lt;h1&gt; and
+                &lt;p&gt;)</p>
+        </div>
+        <div class="example-wrapper">
+            <div class="Example e2 darkexample">
+                <h1>Example</h1>
+                <div class="contain">
+                    <p><code>&lt;!DOCTYPE html&gt;</code>
+                    </p>
+                    <p><code>&lt;html&gt;</code></p>
+                    <p><code>&lt;body&gt;</code></p>
+                    <p>
+                        <code>&lt;p&gt;My first paragraph.&lt;/p&gt;</code>
+                    </p>
+                    <p>
+                        <code>&lt;h1&gt;My first Heading.&lt;/h1&gt;</code>
+                    </p>
+                    <p><code>&lt;/body&gt;</code></p>
+                    <p><code>&lt;/html&gt;</code></p>
+                </div>
+                <div class="output">
+                    <a href="../Output_box/element2.html">Try it with yourself</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="paragraph">
+            <h1>Paragraphs</h1>
+            <p>The paragraph tag is used to write the words in paragraph in html.</p>
+            <p>It is an easy concept to learn about paragraphs.</p>
+            <p>The paragraph tag has a syntax(this means language of coding) that we use to write paragraph in
+                html.</p>
+            <p>Paragraph also a <strong>Nested Element</strong>.</p>
+            <p>It syntax is:</p>
+            <div class="exampl-wrapper">
+                <div class="exampl">
+                    <p style="font-size: 20px;"><code>&lt;p&gt;This is a Paragraph &lt;/p&gt;</code>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="heading" class="heading">
+            <h1>Heading</h1>
+            <p>The heading tag is used for making header for webpage.</p>
+            <p>The heading tag has also a syntax to write a heading.</p>
+            <p>The heading tag is also a <strong>Nested Element</strong>.</p>
+            <p>It Syntax is:</p>
+            <div class="exampl-wrapper">
+                <div class="exampl">
+                    <p style="font-size: 20px;"><code>&lt;h1&gt;This is a Heading &lt;/h1&gt;</code>
+                    </p>
+                </div>
+            </div>
+            <p>Heading has six Differnt sizes</p>
+            <div class="example-wrapper">
+                <div class="Example e3 darkexample" style="height: 465px;">
+                    <h1>Example</h1>
+                    <div class="contain">
+                        <p><code>&lt;!DOCTYPE html&gt;</code>
+                        </p>
+                        <p><code>&lt;html&gt;</code></p>
+                        <p><code>&lt;body&gt;</code></p>
+                        <p>
+                            <code>&lt;h1&gt;My first Heading.&lt;/h1&gt;</code>
+                        </p>
+                        <p>
+                            <code>&lt;h2&gt;My second Heading.&lt;/h2&gt;</code>
+                        </p>
+                        <p>
+                            <code>&lt;h3&gt;My third Heading.&lt;/h3&gt;</code>
+                        </p>
+                        <p>
+                            <code>&lt;h4&gt;My fourth Heading.&lt;/h4&gt;</code>
+                        </p>
+                        <p>
+                            <code>&lt;h5&gt;My fifth Heading.&lt;/h5&gt;</code>
+                        </p>
+                        <p>
+                            <code>&lt;h6&gt;My sixth Heading.&lt;/h6&gt;</code>
+                        </p>
+                        <p><code>&lt;/body&gt;</code>
+                        </p>
+                        <p><code>&lt;/html&gt;</code>
+                        </p>
+                    </div>
+                    <div class="output">
+                        <a href="../Output_box/element3.html">Try it with yourself</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="b">
+            <h1>Bold</h1>
+            <p>The Bold tag is used to bold a word or sentence or letter.</p>
+            <p>It is also a <strong>Nested Element</strong>.</p>
+            <p>How to use it, see in the Example Box:</p>
+            <div class="example-wrapper">
+                <div class="Example e4 darkexample">
+                    <h1>Example</h1>
+                    <div class="contain">
+                        <p><code>&lt;!DOCTYPE html&gt;</code>
+                        </p>
+                        <p><code>&lt;html&gt;</code></p>
+                        <p><code>&lt;body&gt;</code></p>
+                        <p>
+                            <code>&lt;p&gt;I am Normal.&lt;/p&gt;</code>
+                        </p>
+                        <p>
+                            <code>&lt;p&gt;&lt;b&gt;I am Bold.&lt;/b&gt;&lt;/p&gt;</code>
+                        </p>
+                        <p><code>&lt;/body&gt;</code>
+                        </p>
+                        <p><code>&lt;/html&gt;</code>
+                        </p>
+                    </div>
+                    <div class="output">
+                        <a href="../Output_box/element4.html">Try it with yourself</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="I">
+            <h1>Italic</h1>
+            <p>The Italic tag is used to Highlight a word.</p>
+            <p>It is also a <strong>Nested Element</strong>.</p>
+            <p>How to use it, see in the Example Box:</p>
+            <div class="example-wrapper">
+                <div class="Example e5 darkexample">
+                    <h1>Example</h1>
+                    <div class="contain">
+                        <p><code>&lt;!DOCTYPE html&gt;</code>
+                        </p>
+                        <p><code>&lt;html&gt;</code></p>
+                        <p><code>&lt;body&gt;</code></p>
+                        <p>
+                            <code>&lt;p&gt;I am Normal.&lt;/p&gt;</code>
+                        </p>
+                        <p>
+                            <code>&lt;p&gt;I am <span>&lt;i<span>&gt;Italic.&lt;/i&gt;&lt;/p&gt;</code>
+                        </p>
+                        <p><code>&lt;/body&gt;</code>
+                        </p>
+                        <p><code>&lt;/html&gt;</code>
+                        </p>
+                    </div>
+                    <div class="output">
+                        <a href="../Output_box/element5.html">Try it with yourself</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div id="U">
+            <h1>Underline</h1>
+            <p>The Underline tag is used to Underline the word or sentence.</p>
+            <p>It is also a <strong>Nested Element</strong>.</p>
+            <p>How to use it, see in the Example Box:</p>
+            <div class="example-wrapper">
+                <div class="Example e6 darkexample">
+                    <h1>Example</h1>
+                    <div class="contain">
+                        <p><code>&lt;!DOCTYPE html&gt;</code>
+                        </p>
+                        <p><code>&lt;html&gt;</code></p>
+                        <p><code>&lt;body&gt;</code></p>
+                        <p>
+                            <code>&lt;p&gt;I am Normal.&lt;/p&gt;</code>
+                        </p>
+                        <p>
+                            <code>&lt;p&gt;I am <span>&lt;u<span>&gt;Underlined.&lt;/u&gt;&lt;/p&gt;</code>
+                        </p>
+                        <p><code>&lt;/body&gt;</code>
+                        </p>
+                        <p><code>&lt;/html&gt;</code>
+                        </p>
+                    </div>
+                    <div class="output">
+                        <a href="../Output_box/element6.html">Try it with yourself</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="page">
+            <div class="prevpage">
+                <a href="Intro.html"
+                    style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; border-top-right-radius: 0;">&lt;&lt;
+                    Previous</a>
+            </div>
+            <div class="nextpage">
+                <a href="Attributes.html">Next &gt;&gt;</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="JS/element.js"></script>
+
+</html>

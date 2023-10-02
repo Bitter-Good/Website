@@ -1,0 +1,7 @@
+    Logo changing url:
+
+logomaker.thehoth.com/?project=73577732
+
+for circular effect
+
+(0 0 50% 50% / 0 0 100% 100%)

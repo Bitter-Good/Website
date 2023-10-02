@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code The World</title>
+    <link rel="stylesheet" href="Styles/index_style.css">
+    <link rel="stylesheet" href="../Font Awesome/css/all.min.css">
+    <link rel="stylesheet" href="../Font Awesome/css/fontawesome.min.css">
+    <link rel="shortcut icon" href="Images/Favicon.PNG" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Logo"><img src="Images/Logo.svg" title="Code The World" draggable="false"></div>
+            <div class="Nav_Lists">
+                <a href="#" class="List">Map Route</a>
+                <a href="HTML_Section/Attributes.html" class="List">Projects</a>
+                <a href="#" class="List" title="Builder's detail">About</a>
+                <a href="#" class="List">Contacts</a>
+                <a href="#" class="List">Services</a>
+            </div>
+            <div class="side_buttons" title="Side Options">
+                <div class="buttons">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="Main_Section">
+        <div class="text_wrapper">
+            <h2>Welcome to Code The World</h2>
+            <h3>It teaches you full - Stack Web Development for free!</h3>
+            <h3>Over 10 million users use this site for learning</h3>
+        </div>
+        <div class="sign_in_box_wrapper">
+            <form class="User_Validation">
+                <div class="sign_in_box">
+                    <h1>Sign In to create your own website</h1>
+                    <div class="User_Name_Container">
+                        <label for="User_Name">Username</label>
+                        <input type="text" id="User_Name" required>
+                    </div>
+                    <div class="Password_Container">
+                        <label for="Password">Password</label>
+                        <input type="password" id="Password" required>
+                        <i class="fa-solid fa-eye" id="eye" onclick="Password_Visible()"></i>
+                        <i class="fa-solid fa-eye-slash" id="eye_slash" onclick="Password_Visible()"></i>
+                    </div>
+                    <div class="Remem_ME">
+                        <input type="checkbox" id="Check">
+                        <span>Remember me</span>
+                    </div>
+                    <div class="Submit_Button_Container">
+                        <button type="submit" id="Submit">Log In</button>
+                    </div>
+                    <div class="links">
+                        <p>Don't have account then <a href="#">Create Account!</a> </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="Scripts/index_Script.js"></script>
+
+</html>

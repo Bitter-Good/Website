@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: 0.5s;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #101010;
+    min-height: 100vh;
+}
+
+.btn {
+    padding: 5px 10px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 2em;
+    margin-left: 50px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.btn:hover {
+    color: rgb(255, 78, 78);
+}
+
+.main-editor {
+    background-color: #101010;
+    width: 100%;
+    height: 85vh;
+}
+
+.partition {
+    display: flex;
+    height: 100%;
+    background: transparent;
+}
+
+.fa-2x {
+    cursor: pointer;
+    margin: 10px;
+}
+
+a {
+    user-select: none;
+}
+
+.link {
+    padding: 5px 10px;
+    margin-left: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 2em;
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -1.5px;
+}
+
+.link:hover {
+    color: red;
+}
+
+.section {
+    background-color: #101010;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.first {
+    background-color: #ffffff;
+    width: 50%;
+    white-space: pre;
+    overflow-y: auto;
+    overflow-x: auto;
+    border: none;
+    outline: none;
+    padding: 0.4rem;
+    height: 100%;
+    margin: 5px;
+}
+
+.second {
+    background-color: #ffffff;
+    width: 50%;
+    overflow-y: auto;
+    border: none;
+    padding: 0.4rem;
+    height: 100%;
+    margin: 5px;
+}
+
+.dark {
+    background: #979899;
+}
+
+.dark a {
+    color: #000;
+}
+
+.dark button {
+    color: #000;
+}
+
+.back {
+    background-color: #979899;
+}
+
+.div {
+    height: 70px;
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.theme {
+    width: 6rem;
+    height: 3.5rem;
+    cursor: pointer;
+}

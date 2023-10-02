@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML, CSS and JavaScript</title>
+    <link rel="stylesheet" href="../Styles/HTML_Styles/Links.css">
+    <link rel="icon" href="../Images/Favicon.png">
+</head>
+
+<body>
+    <input type="checkbox" id="check" />
+    <div class="sidebar">
+        <header>HTML Basic</header>
+        <ul>
+            <li>
+                <a href="Editors.html">HTML Editors</a>
+            </li>
+            <li>
+                <a href="Intro.html">Introduction</a>
+            </li>
+            <li>
+                <a href="Elements.html">Elements</a>
+            </li>
+            <li>
+                <a href="Attributes.html">Attributes</a>
+            </li>
+            <li>
+                <a href="Images.html">Images</a>
+            </li>
+            <li>
+                <a href="Links.html" class="active">Links</a>
+            </li>
+            <li>
+                <a href="Buttons.html">Buttons</a>
+            </li>
+            <li>
+                <a href="Comments.html">Comments</a>
+            </li>
+        </ul>
+    </div>
+    <nav class="navbar" id="navbar">
+        <ol>
+            <li>
+                <h1>
+                    <img src="../Images/Profile.png" alt="" width="40px" height="50px">ractice<img
+                        src="../Images/Profile.png" alt="" width="40px" height="50px">oint
+                </h1>
+            </li>
+        </ol>
+        <ul class="navlist">
+            <a href="../index.html" class="list">Home</a>
+            <a href="Intro.html" class="list">HTML</a>
+            <a href="#" class="list">CSS</a>
+            <a href="#" class="list">JavaScript</a>
+        </ul>
+    </nav>
+    <section>
+        <div class="content">
+            <div class="header-wrapper">
+                <div class="icon">
+                    <label for="check">
+                        <div class="burger" id="cancel" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </label>
+                </div>
+                <div class="header">
+                    <div class="container">
+                        <p>We can connect one file to other one or more files using link tag.</p>
+                        <p>Learn about how to insert an link tag.</p>
+                        <p>And step by step process.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="expain">
+                <h1>Inserting a link</h1>
+                <p>To insert a link make sure you have at least one file for link.</p>
+                <p>In the second file you can write or insert an image and you can add your file name for link.</p>
+                <p>In the first file where you link the second file, name 'Links.html'.</p>
+                <h2 style="margin-top: 40px;"><strong>See the Example box below:</strong></h2>
+                <div class="example-wrapper">
+                    <div class="Example" style="height: 345px;">
+                        <h1>Example</h1>
+                        <div class="contain">
+                            <p style="color: blue;">
+                                <code>&lt;<span style="color: brown;">!DOCTYPE</span><span style="color: orangered;"> html</span>&gt;</code>
+                            </p>
+                            <p style="color: blue;">
+                                <code>&lt;<span style="color: brown;">html</span>&gt;</code>
+                            </p>
+                            <p style="color: blue;">
+                                <code>&lt;<span style="color: brown;">body</span>&gt;</code>
+                            </p>
+                            <p style="color: blue;">
+                                <code>&lt;<span style="color: brown;">h1</span>&gt;<span style="color: black;">HTML Links</span>&lt;<span style="color: brown;">/h1</span>&gt;</code>
+                            </p>
+                            <p style="color: blue;">
+                                <code>&lt;<span style="color: brown;">p</span>&gt;<span style="color: black;">This is a </span>&lt;<span style="color: brown;">a</span> <span style="color: rgb(255, 115, 0);">href="<span style="color: red;"><span style="color: rgb(151, 98, 0);">2nd HTML.html</span><span style="color: red;"></span></span>"</span>&gt;<span style="color: black;">link.</span>&lt;<span style="color: brown;">/a</span>&gt;&lt;<span style="color: brown;">/p</span>&gt;</code>
+                            </p>
+                            <p style="color: blue;">
+                                <code>&lt;<span style="color: brown;">/body</span>&gt;</code>
+                            </p>
+                            <p style="color: blue;">
+                                <code>&lt;<span style="color: brown;">/html</span>&gt;</code>
+                            </p>
+                        </div>
+                        <div class="output">
+                            <a href="../../Output_box/attribute4.html" target="_blank">Output</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="explanation" style="margin-top: 80px;">
+                    <h1>Explanation:</h1>
+                    <p style="color: white;">
+                        <code style="background-color: rgb(0, 168, 0); padding: 5px;">a</code>
+                        : It stands for anchor tag.
+                    </p>
+                    <p style="color: white;">
+                        <code style="background-color: rgb(0, 168, 0); padding: 5px;">href</code>
+                        : It is used for typing the file name under quotes will be linked.
+                    </p>
+                    <p style="margin-top: 50px;">Under the anchor tag you will write any text, the text will be converted into a link</p>
+                    <div class="note">
+                        <p><strong>note:</strong> It is compulsory to write a word or letter to make it visible link.</p>
+                    </div>
+                    <h1>You can add more links like that but you have to create more files for more links.</h1>
+                </div>
+            </div>
+            <hr>
+            <div class="page">
+                <div class="prevpage">
+                    <a href="Images.html">&lt;&lt; Previous Page </a>
+                </div>
+                <div class="nextpage">
+                    <a href="Buttons.html">Next Page &gt;&gt;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="../JS/Script.js"></script>
+
+</html>

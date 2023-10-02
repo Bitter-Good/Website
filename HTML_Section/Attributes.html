@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Attributes</title>
+    <link rel="stylesheet" href="../Styles/HTML_Styles/Attribute.css">
+    <link rel="icon" href="../Images/Favicon.png">
+</head>
+
+<body>
+    <div class="sidebar">
+        <header>HTML Basic</header>
+        <ul>
+            <li><a href="Editors.html">HTML Editors</a></li>
+            <li><a href="Intro.html">Introduction</a></li>
+            <li><a href="Elements.html">Elements</a></li>
+            <li><a href="Attributes.html" class="active">Attributes</a></li>
+            <li><a href="Images.html">Images</a></li>
+            <li><a href="Links.html">Links</a></li>
+            <li><a href="Buttons.html">Buttons</a></li>
+            <li><a href="Comments.html">Comments</a></li>
+        </ul>
+        <header>HTML Sizes</header>
+        <ul>
+            <li>
+                <a href="">Use of Pixels</a>
+            </li>
+            <li>
+                <a href="">Use of EM</a>
+            </li>
+            <li>
+                <a href="Fonts.html">Fonts</a>
+            </li>
+        </ul>
+    </div>
+    <nav class="navbar dark">
+        <ol>
+            <li>
+                <img src="../Images/Profiledark.png" alt="Profile image" draggable="false" id="profile">
+            </li>
+        </ol>
+        <ul class="navlist">
+            <a href="../index.html" class="list">Home</a>
+            <a href="Editors.html" class="list">HTML</a>
+            <a href="#" class="list">CSS</a>
+            <a href="#" class="list">JavaScript</a>
+        </ul>
+        <div class="right">
+            <img src="../Images/Theme button2.png" class="fa-2x" draggable="false" id="Theme">
+        </div>
+    </nav>
+    <div class="content">
+        <div class="header-wrapper">
+            <div class="header">
+                <h3>HTML Attributes are placed in Elements.</h3>
+                <h3>Attributes are used for Styling an Element.</h3>
+                <h3>We will learn the Attributes in detail.</h3>
+            </div>
+        </div>
+        <hr>
+        <div class="explain">
+            <div class="attribute">
+                <h1>What is Attributes?</h1>
+                <p style="margin-top: 25px;">The Attributes is used for Style a single or particular Element.</p>
+                <p>In the bottom you can see the code format for using Attributes.</p>
+                <div class="example-wrapper">
+                    <div class="Example darkexample" style="height: 350px;">
+                        <h1>Example</h1>
+                        <div class="contain">
+                            <p><code>&lt;!DOCTYPE html&gt;</code>
+                            </p>
+                            <p><code>&lt;html&gt;</code></p>
+                            <p><code>&lt;body&gt;</code></p>
+                            <p>
+                                <code>&lt;p style="font-size: 30px;"&gt;I am Big Paragraph with 30px.&lt;/p&gt;</code>
+                            </p>
+                            <p>
+                                <code>&lt;p style="color: red;"&gt;I am colored Paragraph with Red colour.&lt;/p&gt;</code>
+                            </p>
+                            <p><code>&lt;/body&gt;</code>
+                            </p>
+                            <p><code>&lt;/html&gt;</code>
+                            </p>
+                        </div>
+                        <div class="output">
+                            <a href="../Output_box/attribute1.html">Try it with yourself</a>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <p style="margin-top: 60px;">Attributes are Works in an End and Nested Tags.</p>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="explain">
+                <div class="style">
+                    <h1>Using "Style" Attribute.</h1>
+                    <p>This
+                        <code style="box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+                         color:red; padding: 5px; border-radius: 10px;">style</code>
+                        code is used for starting the Attribute Tag or Styling an Element.
+                    </p>
+                    <p>
+                        It is a way for using it you have to take a space between an element and bracket.
+                    </p>
+                    <p>
+                        You can type
+                        <code style="box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+                         color:red; padding: 5px; border-radius: 10px;">style</code>
+                        to start designing for an Element.
+                    </p>
+                </div>
+                <hr>
+                <div class="color">
+                    <h1>Colouring an Element using Attribute.</h1>
+                    <p>In the Example box below.</p>
+                    <div class="example-wrapper">
+                        <div class="Example e darkexample" style="height: 380px;">
+                            <h1>Example</h1>
+                            <div class="contain">
+                                <p><code>&lt;!DOCTYPE html&gt;</code></p>
+                                <p><code>&lt;html&gt;</code></p>
+                                <p><code>&lt;body&gt;</code></p>
+                                <p><code>&lt;p style="color: red;"&gt;I am colored Paragraph with Red colour.&lt;/p&gt;</code>
+                                </p>
+                                <p><code>&lt;p style="color: green;"&gt;I am colored Paragraph with Green colour.&lt;/p&gt;</code>
+                                </p>
+                                <p><code>&lt;p style="color: blue;"&gt;I am colored Paragraph with Blue colour.&lt;/p&gt;</code>
+                                </p>
+                                <p><code>&lt;/body&gt;</code></p>
+                                <p><code>&lt;/html&gt;</code></p>
+                            </div>
+                            <div class="output">
+                                <a href="../Output_box/attribute2.html">Try It with yourself</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note" style="margin-top: 50px;">
+                        <p>
+                            <strong>Note:</strong>
+                            Do not Type "colour" instead of "color" it will through error and do not change the
+                            colour.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="size">
+                <h1>Changing an Element's size using Attribute.</h1>
+                <p>In the Example box below.</p>
+                <div class="example-wrapper">
+                    <div class="Example f darkexample" style="height: 380px;">
+                        <h1>Example</h1>
+                        <div class="contain">
+                            <p><code>&lt;!DOCTYPE html&gt;</code>
+                            </p>
+                            <p><code>&lt;html&gt;</code>
+                            </p>
+                            <p><code>&lt;body&gt;</code>
+                            </p>
+                            <p>
+                                <code>&lt;p style="font-size: 30px;"&gt;I am 30px big.&lt;/p&gt;</code>
+                            </p>
+                            <p>
+                                <code>&lt;p style="font-size: 40px;"&gt;I am 40px big.&lt;/p&gt;</code>
+                            </p>
+                            <p>
+                                <code>&lt;p style="font-size: 50px;"&gt;I am 50px big.&lt;/p&gt;</code>
+                            </p>
+                            <p>
+                                <code>&lt;/body&gt;</code>
+                            </p>
+                            <p>
+                                <code>&lt;/html&gt;</code>
+                            </p>
+                        </div>
+                        <div class="output">
+                            <a href="../Output_box/attribute3.html">Output</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="note" style="margin-top: 50px;">
+                    <p>
+                        <strong>Note:</strong>
+                        Do not Type "colour" instead of "color" it will thow error and do not change the
+                        colour.
+                    </p>
+                </div>
+                <ul>
+                    <li>
+                        <p style="margin-top: 30px;">You can add infinite size you want!</p>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="align">
+                <h1>We can align the text using alignment</h1>
+                <p>In the Example box bellow.</p>
+                <div class="example-wrapper">
+                    <div class="Example g darkexample">
+                        <h1>Example</h1>
+                        <div class="contain">
+                            <p><code>&lt;!DOCTYPE html&gt;</code>
+                            </p>
+                            <p><code>&lt;html&gt;</code>
+                            </p>
+                            <p><code>&lt;body&gt;</code>
+                            </p>
+                            <p>
+                                <code>&lt;p style="text-align: right;"&gt;I am align to right.&lt;/p&gt;</code>
+                            </p>
+                            <p>
+                                <code>&lt;p style="text-align: center;"&gt;I am align to center.&lt;/p&gt;</code>
+                            </p>
+                            <p>
+                                <code>&lt;h1 style="text-align: left;"&gt;I am align to left.&lt;/h1&gt;</code>
+                            </p>
+                            <p>
+                                <code>&lt;h1 style="text-align: Justify;"&gt;I am align to justify.&lt;/h1&gt;</code>
+                            </p>
+                            <p>
+                                <code>&lt;/body&gt;</code>
+                            </p>
+                            <p>
+                                <code>&lt;/html&gt;</code>
+                            </p>
+                        </div>
+                        <div class="output">
+                            <a href="../Output_box/attribute4.html">Output</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="margin">
+                <h1>What is Margin?</h1>
+                <p>A margin is a gaping attribute that can makes gap from outside.</p>
+                <p>
+                    You can add
+                    <code style="box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+                    color:red; padding: 5px; border-radius: 10px;">background-color</code>
+                    Property to check the margin.
+                </p>
+                <div class="example-wrapper">
+                    <div class="Example h darkexample" style="height: 385px; width: 780px;">
+                        <h1>Example</h1>
+                        <div class="contain">
+                            <p><code>&lt;!DOCTYPE html&gt;</code></p>
+                            <p><code>&lt;html&gt;</code></p>
+                            <p><code>&lt;body&gt;</code></p>
+                            <p><code>&lt;p style="margin: 10px; background-color: yellow;"&gt;I am gaped by Margin 10px.&lt;/p&gt;</code>
+                            </p>
+                            <p><code>&lt;p style="margin: 20px; background-color: yellow;"&gt;I am gaped by Margin 20px.&lt;/p&gt;</code>
+                            </p>
+                            <p><code>&lt;p style="margin: 30px; background-color: yellow;"&gt;I am gaped by Margin 30px.&lt;/p&gt;</code>
+                            </p>
+                            <p><code>&lt;/body&gt;</code></p>
+                            <p><code>&lt;/html&gt;</code></p>
+                        </div>
+                        <div class="output">
+                            <a href="../Output_box/attribute5.html" style="width: 760px;">Output</a>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 50px;">
+                    <ul>
+                        <li>
+                            <p>The distance between the Paragraphs are "Margins".</p>
+                        </li>
+                        <li>
+                            <p>The Margin can be Adjust from four side.</p>
+                        </li>
+                        <li>
+                            <p>Margin is a Gap that can be Adjust from Outside.</p>
+                        </li>
+                        <li>
+                            <p>These are series of Margin: Top, left, Bottom, Right.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="padding">
+                <h1>What is Padding?</h1>
+                <p>A padding is a gaping attribute that can makes gap from inside.</p>
+                <div class="example-wrapper">
+                    <div class="Example i darkexample" style="height: 380px; width: 920px;">
+                        <h1>Example</h1>
+                        <div class="contain">
+                            <p><code>&lt;!DOCTYPE html&gt;</code></p>
+                            <p><code>&lt;html&gt;</code></p>
+                            <p><code>&lt;body&gt;</code></p>
+                            <p><code>&lt;p style="padding: 10px; margin: 5px; background-color: yellow;"&gt;I am gaped by Padding 10px.&lt;/p&gt;</code>
+                            </p>
+                            <p><code>&lt;p style="padding: 20px; margin: 5px; background-color: yellow;"&gt;I am gaped by Padding 20px.&lt;/p&gt;</code>
+                            </p>
+                            <p><code>&lt;p style="padding: 30px; margin: 5px; background-color: yellow;"&gt;I am gaped by Padding 30px.&lt;/p&gt;</code>
+                            </p>
+                            <p><code>&lt;/body&gt;</code></p>
+                            <p><code>&lt;/html&gt;</code></p>
+                        </div>
+                        <div class="output">
+                            <a href="../Output_box/attribute6.html" style="width: 905px;">Output</a>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 50px;">
+                    <ul>
+                        <li>
+                            <p>In the Output, the thickness of yellow color will be increased.</p>
+                        </li>
+                        <li>
+                            <p>This will be show the Padding.</p>
+                        </li>
+                        <li>
+                            <p>We have also add the margin to see the diffrent Paragraphs padding.</p>
+                        </li>
+                        <li>
+                            <p>Padding is a Gap that can be Adjust from Inside.</p>
+                        </li>
+                        <li>
+                            <p>Padding have also series like Margin but this topic will be cleared later.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="page">
+                <div class="prevpage">
+                    <a href="Elements.html" class="prev">&lt;&lt; Previous Page </a>
+                </div>
+                <div class="nextpage">
+                    <a href="Images.html" class="next">Next Page &gt;&gt;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="JS/Dark3.js"></script>
+
+</html>
